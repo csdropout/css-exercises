@@ -89,6 +89,7 @@ div.buttons {
 div.header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 div.header {

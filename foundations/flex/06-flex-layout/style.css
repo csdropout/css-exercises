@@ -31,7 +31,8 @@ body {
   justify-content: space-between;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -52,9 +53,6 @@ li a {
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
   background-color: lightgrey;
 }
 

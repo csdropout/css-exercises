@@ -51,7 +51,7 @@ ul {
   display: flex;
   justify-content: space-between;
   padding: 8px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 ul {
@@ -59,7 +59,7 @@ ul {
   margin: 0;
   padding: 0;
   gap: 15px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .header > div {

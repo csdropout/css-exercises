@@ -29,7 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 150px;
+  /* padding: 0 150px; */
 }
 
 div.plant-info {

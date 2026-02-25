@@ -111,14 +111,17 @@
 }
 
 .menu {
-  display: grid;
-  justify-content: end;
+  align-self: center;
 }
 
 .menu > ul {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 4em;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.menu ul,
+.menu li {
+  list-style-type: none;
 }
 
 .sidebar {
@@ -146,6 +149,7 @@
 .nav > ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
 }
 
 .article {
@@ -169,12 +173,4 @@
 .footer {
   grid-row: 4 / 5;
   grid-column: 1 / -1;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  display: inline-block;
 }
